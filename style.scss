@@ -53,3 +53,48 @@ body {
         margin-left: 120px;
     }
 }
+
+.game-box {
+    background: #000915;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+
+    &__item {
+        height: 300px;
+        border-radius: 16px;
+        width: 378px;
+        height: 300px;
+        margin-top: 128px;
+        margin-bottom: 128px;
+    }
+
+    &__item1 {
+        background-image: url(img/game1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    &__item2 {
+        background-image: url(img/game2.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    &__item3 {
+        background-image: url(img/game3.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;        
+    }
+
+    &__heading {
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 32px;
+        display: flex;
+        align-items: center;
+        color: #FFFFFF;
+        padding-top: 236.36px;
+        padding-left: 32px;
+    }
+}

@@ -11,5 +11,15 @@
 
 //Задание 3
 
-let nameCreatorJs = "Брендан Эйх";
-alert(`Имя создателя языка JavaScript — ${nameCreatorJs}`);
+// let nameCreatorJs = "Брендан Эйх";
+// alert(`Имя создателя языка JavaScript — ${nameCreatorJs}`);
+
+//Задание 4
+
+let two = 2;
+let ten = 10;
+
+alert(two + ten)
+alert(two - ten)
+alert(two * ten)
+alert(two / ten)

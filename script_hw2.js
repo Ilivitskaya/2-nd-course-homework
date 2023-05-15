@@ -57,5 +57,12 @@ const user = {
     age: 30,
     age: 31,
     isAdmin: false,
-    user[city of residence] = Omsk
+    user[city of residence] = Omsk //тут я не поняла, надо это в тех же фигурных скобках писать или вынести ниже за них 
 };
+
+delete user['city of residence'];
+let info = prompt ('Какую информацию хотите узнать о пользователе?');
+
+alert(user[info]);
+
+

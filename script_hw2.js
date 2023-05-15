@@ -16,10 +16,15 @@
 
 //Задание 4
 
-let two = 2;
-let ten = 10;
+// let two = 2;
+// let ten = 10;
 
-alert(two + ten)
-alert(two - ten)
-alert(two * ten)
-alert(two / ten)
+// alert(two + ten);
+// alert(two - ten);
+// alert(two * ten);
+// alert(two / ten);
+
+//Задание 5
+
+let result = 2 ** 5;
+alert(result);

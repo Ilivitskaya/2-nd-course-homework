@@ -52,17 +52,20 @@
 
 //Задание 9
 
-const user = {
-    name: 'Оля',
-    age: 30,
-    age: 31,
-    isAdmin: false,
-    user[city of residence] = Omsk //тут я не поняла, надо это в тех же фигурных скобках писать или вынести ниже за них 
-};
+// const user = {
+//     name: 'Оля',
+//     age: 30,
+//     age: 31,
+//     isAdmin: false,
+//     user[city of residence] = Omsk //тут я не поняла, надо это в тех же фигурных скобках писать или вынести ниже за них 
+// };
 
-delete user['city of residence'];
-let info = prompt ('Какую информацию хотите узнать о пользователе?');
+// delete user['city of residence'];
+// let info = prompt ('Какую информацию хотите узнать о пользователе?');
 
-alert(user[info]);
+// alert(user[info]);
 
+//Задание 10
 
+let youName = prompt(`Как тебя зовут?`);
+alert(`Привет, ${youName}!`);

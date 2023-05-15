@@ -55,5 +55,6 @@
 const user = {
     name: 'Оля',
     age: 30,
-    isAdmin: false
-}
+    isAdmin: false,
+    user[city of residence] = Omsk
+};

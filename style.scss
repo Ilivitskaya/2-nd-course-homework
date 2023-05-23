@@ -7,6 +7,12 @@ a {
     text-decoration: none;
 }
 
+@media (min-width: 1025px) {
+    .top__heading {
+        width: 760px;
+    }
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
 }
@@ -51,6 +57,10 @@ body {
         color: #FFFFFF;
         margin-top: 44px;
         margin-left: 120px;
+
+        &:hover {
+            background: #EB443F;
+        }
     }
 }
 
@@ -67,6 +77,11 @@ body {
         height: 300px;
         margin-top: 128px;
         margin-bottom: 128px;
+
+        &:hover {
+            border: 3px solid #44D2FF;
+            box-sizing: border-box;
+        }
     }
 
     &__item1 {
@@ -98,3 +113,5 @@ body {
         padding-left: 32px;
     }
 }
+
+@import 'mobile';

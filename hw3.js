@@ -37,42 +37,72 @@
 // alert(Number(a) + Number(b));
 
 // Задание 5
+// let monthNumber = String(prompt('Напиши номер месяца'))
+
+// switch (monthNumber) {
+//     case '12':
+//         console.log('зима');
+//         break;
+//     case '1':
+//         console.log('зима');
+//         break;
+//     case '2':
+//         console.log('зима');
+//         break;
+//     case '3':
+//         console.log('весна');
+//         break;
+//     case '4':
+//         console.log('весна');
+//         break;
+//     case '5':
+//         console.log('весна');
+//         break;
+//     case '6':
+//         console.log('лето');
+//         break;
+//     case '7':
+//         console.log('лето');
+//         break;
+//     case '8':
+//         console.log('лето');
+//         break;
+//     case '9':
+//         console.log('осень');
+//         break;
+//     case '10':
+//         console.log('осень');
+//         break;
+//     case '11':
+//         console.log('осень');
+//         break;
+//     default:
+//         console.log('нет такого');
+//       break;
+//   }
+
+
+// Задание 5 Короткий вариант (подсказали позже)
 let monthNumber = String(prompt('Напиши номер месяца'))
 
 switch (monthNumber) {
     case '12':
-        console.log('зима');
-        break;
     case '1':
-        console.log('зима');
-        break;
     case '2':
         console.log('зима');
         break;
     case '3':
-        console.log('весна');
-        break;
     case '4':
-        console.log('весна');
-        break;
     case '5':
         console.log('весна');
         break;
     case '6':
-        console.log('лето');
-        break;
     case '7':
-        console.log('лето');
-        break;
     case '8':
         console.log('лето');
         break;
     case '9':
-        console.log('осень');
-        break;
     case '10':
-        console.log('осень');
-        break;
     case '11':
         console.log('осень');
         break;
@@ -80,3 +110,5 @@ switch (monthNumber) {
         console.log('нет такого');
       break;
   }
+
+

@@ -13,4 +13,4 @@ let b = 1
 while (b < 6) {
     console.log(b);
     b++;
-}
+}z

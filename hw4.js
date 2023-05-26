@@ -38,9 +38,16 @@
 
 // Задание 5
 
-let n = 1000;
-let num = 0;
-while (n > 50) {
-    n /= 2;
-    num++;
-}console.log(n);
+// let n = 1000;
+// let num = 0;
+// while (n > 50) {
+//     n /= 2;
+//     num++;
+// }console.log(n);
+
+
+// Задание 6
+
+for (let firstFriday = 5; firstFriday <= 31; firstFriday+= 7) { 
+      console.log(`Сегодня пятница, ${firstFriday} число. Необходимо подготовить отчет.`); 
+  }

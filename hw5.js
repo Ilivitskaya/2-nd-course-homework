@@ -14,20 +14,49 @@
 
 // let result = evenNum(44);
 
-// 3 task
+// 3.1 task
+// Напишите функцию, которая принимает параметром число и выводит в консоль квадрат этого числа.
 
-function adultUser(age) {
-    let userAge = prompt(`сколько вам лет?`);
+// function exponentiateConsole(a) {
+//     console.log(a * a)
+// };
 
-    if (userAge >= 13) {
-        alert(`Добро пожаловать!`)
-    } else if (userAge > 0 && userAge < 13) {
-        alert(`Привет, друг!`);
-    } else {
-        alert(`Вы ввели неправильное значение`)
+// exponentiateConsole(2);
+// exponentiateConsole(3);
+// exponentiateConsole(4);
+
+// 3.2 task
+// Напишите функцию, которая принимает параметром число и возвращает квадрат этого числа.
+
+// function exponentiate(a) {
+//     return(a * a)
+// };
+
+// console.log(exponentiate(5));
+// console.log(exponentiate(6));
+// console.log(exponentiate(7));
+
+// 4 task
+
+// function adultUser(age) {
+//     let userAge = prompt(`сколько вам лет?`);
+
+//     if (userAge >= 13) {
+//         alert(`Добро пожаловать!`)
+//     } else if (userAge > 0 && userAge < 13) {
+//         alert(`Привет, друг!`);
+//     } else {
+//         alert(`Вы ввели неправильное значение`)
+//     }
+// };
+
+// adultUser();
+
+
+// 5 task
+
+function checNum(a, b) {
+    (isNaN(a) || isNaN(b)) ? console.log(`Одно или оба значения не являются числом`) : console.log(a * b);
     }
-};
 
-adultUser();
-
-
+checNum(prompt(`введи первое число`), prompt(`введи второе число`));

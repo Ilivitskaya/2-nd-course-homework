@@ -55,8 +55,21 @@
 
 // 5 task
 
-function checNum(a, b) {
-    (isNaN(a) || isNaN(b)) ? console.log(`Одно или оба значения не являются числом`) : console.log(a * b);
-    }
+// function checNum(a, b) {
+//     (isNaN(a) || isNaN(b)) ? console.log(`Одно или оба значения не являются числом`) : console.log(a * b);
+//     }
 
-checNum(prompt(`введи первое число`), prompt(`введи второе число`));
+// checNum(prompt(`введи первое число`), prompt(`введи второе число`));
+
+// 6 task
+
+function square(a) {
+    if (isNaN(a)) {
+        return alert(`Переданный параметр не является числом`);
+    } else {
+        let result = (a * a);
+        return alert(`${a} в кубе равняется ${result}`);
+    }
+};
+
+square(prompt `напиши число`);

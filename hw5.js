@@ -63,13 +63,40 @@
 
 // 6 task
 
-function square(a) {
-    if (isNaN(a)) {
-        return alert(`Переданный параметр не является числом`);
-    } else {
-        let result = (a * a);
-        return alert(`${a} в кубе равняется ${result}`);
-    }
-};
+// function square(a) {
+//     if (isNaN(a)) {
+//         return alert(`Переданный параметр не является числом`);
+//     } else {
+//         let result = (a * a);
+//         return alert(`${a} в кубе равняется ${result}`);
+//     }
+// };
 
-square(prompt `напиши число`);
+// square(prompt `напиши число`);
+
+// 7 task
+
+function getArea() {
+    console.log(3.14 * this.radius);
+}
+
+function getPerimeter() {
+    console.log((3.14 * this.radius) * 2);
+}
+
+const circle1 = {
+    radius: 3,
+    getArea: getArea,
+    getPerimeter: getPerimeter,
+}
+
+const circle2 = {
+    radius: 8,
+    getArea: getArea,
+    getPerimeter: getPerimeter,
+}
+
+circle1.getArea();
+circle2.getArea();
+circle1.getPerimeter();
+circle2.getPerimeter();

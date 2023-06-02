@@ -7,3 +7,7 @@
 // 	console.log(numbers[i]);
 // }
 
+// 2 task
+const numbers = [1, 5, 4, 10, 0, 3];
+console.log(numbers.indexOf(4));
+

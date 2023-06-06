@@ -52,7 +52,15 @@
 // Дан массив: [9, 8, 7, 6, 5].Пользователь с клавиатуры вводит число от 1 до 10 (использовать prompt()). 
 // Необходимо проверить, содержится ли введенное пользователем число в данном массиве.
 
-let arrNumbers = [9, 8, 7, 6, 5];
-console.log(arrNumbers.includes(Number(prompt(`введите число`))));
+// let arrNumbers = [9, 8, 7, 6, 5];
+// console.log(arrNumbers.includes(Number(prompt(`введите число`))));
 
+// 8 task
+// Дана строка: 'abcdef' Необходимо, чтобы программа вывела в консоль 'fedcba'
 
+let arr = 'abcdef';
+arr = arr.split(``);
+console.log(arr);
+
+console.log(arr.reverse());
+console.log(arr.join(``));

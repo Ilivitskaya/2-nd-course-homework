@@ -58,9 +58,15 @@
 // 8 task
 // Дана строка: 'abcdef' Необходимо, чтобы программа вывела в консоль 'fedcba'
 
-let arr = 'abcdef';
-arr = arr.split(``);
-console.log(arr);
+// let arr = 'abcdef';
+// arr = arr.split(``);
+// console.log(arr);
 
-console.log(arr.reverse());
-console.log(arr.join(``));
+// console.log(arr.reverse());
+// console.log(arr.join(``));
+
+// 9 task
+const multiArr = [[1, 2, 3,],[4, 5, 6]];
+let a = (multiArr[0]).join(``) + (multiArr[1]).join(``);
+console.log(a.split(``));
+

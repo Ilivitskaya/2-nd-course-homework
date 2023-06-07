@@ -80,5 +80,17 @@
 
 // 11 task
 
-const numbers = [1, 2, 3, 5, 9];
-const squares = numbers.map(el => el * el);
+// const numbers = [1, 2, 3, 5, 9];
+// const squares = numbers.map(el => el * el);
+
+// 12 task
+
+//Создайте функцию, которая принимает на вход массив строк, а возвращает массив длинны слов. Пример вызова:
+// getLengthWords(['слово', '', 'слог', 'длинное предложение', 'буква']); // [5, 0, 4, 19, 5]
+
+const words = [`cat`, `mouse`, `elephant`, ``, `dog`];
+const getLengthWords = words.map(function (el) {
+    return (el.length);    
+});
+
+

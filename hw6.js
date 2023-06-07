@@ -66,7 +66,14 @@
 // console.log(arr.join(``));
 
 // 9 task
-const multiArr = [[1, 2, 3,],[4, 5, 6]];
-let a = (multiArr[0]).join(``) + (multiArr[1]).join(``);
-console.log(a.split(``));
+// const multiArr = [[1, 2, 3,],[4, 5, 6]];
+// let a = (multiArr[0]).join(``) + (multiArr[1]).join(``);
+// console.log(a.split(``));
 
+// 10 task
+
+const arr = [8, 4, 1, 9, 7];
+
+for (let i = 0; i < arr.length - 1; i++) {
+    console.log(arr[i] + arr[i + 1]);
+}

@@ -88,9 +88,19 @@
 //Создайте функцию, которая принимает на вход массив строк, а возвращает массив длинны слов. Пример вызова:
 // getLengthWords(['слово', '', 'слог', 'длинное предложение', 'буква']); // [5, 0, 4, 19, 5]
 
-const words = [`cat`, `mouse`, `elephant`, ``, `dog`];
-const getLengthWords = words.map(function (el) {
-    return (el.length);    
-});
+// const words = [`cat`, `mouse`, `elephant`, ``, `dog`];
+// const getLengthWords = words.map(function (el) {
+//     return (el.length);    
+// });
+
+// 13 task 
+
+function filterPositive(array) {
+    let result = array.filter(el => el < 0);
+    return result
+}
+
+filterPositive([-1, 0, 5, -10, 56]);
+filterPositive([-25, 25, 0, -1000, -2]);
 
 

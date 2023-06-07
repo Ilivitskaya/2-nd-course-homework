@@ -72,8 +72,13 @@
 
 // 10 task
 
-const arr = [8, 4, 1, 9, 7];
+// const arr = [8, 4, 1, 9, 7];
 
-for (let i = 0; i < arr.length - 1; i++) {
-    console.log(arr[i] + arr[i + 1]);
-}
+// for (let i = 0; i < arr.length - 1; i++) {
+//     console.log(arr[i] + arr[i + 1]);
+// }
+
+// 11 task
+
+const numbers = [1, 2, 3, 5, 9];
+const squares = numbers.map(el => el * el);

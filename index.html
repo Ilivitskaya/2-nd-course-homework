@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head class="top">
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,22 +8,47 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <header class="top">
+    <header class="top center">
         <h1 class="top__heading">Добро пожаловать<br>на мой сайт !</h1>
         <p class="top__text">Вам предстоит пройти несколько увлекательных<br>игр. Если готов нажимай <b>поехали</b> и <b>приступай</b></p>
-        <button class="top__button">Поехали!</button>
+        <a href="#game1-season"><button class="top__button">Поехали!</button></a>
     </header>
-    <main class="game-box">
-        <div class="game-box__item game-box__item1">
-            <h2 class="game-box__heading">Игра 1</h2>
-        </div>
-        <div class="game-box__item game-box__item2">
-            <h2 class="game-box__heading">Игра 2</h2>
-        </div>
-        <div class="game-box__item game-box__item3">
-            <h2 class="game-box__heading">Игра 3</h2>
-        </div>
+
+    <main>
+        <section class="game-box center">
+            <div class="game-box__item game-box__item1">
+                <h2 class="game-box__heading">Игра 1</h2>
+            </div>
+            <div class="game-box__item game-box__item2">
+                <h2 class="game-box__heading">Игра 2</h2>
+            </div>
+            <div class="game-box__item game-box__item3">
+                <h2 class="game-box__heading">Игра 3</h2>
+            </div>
+        </section>
+    
+        <section class="season-game center">
+
+            <div class="season-game__content">
+
+                <h1 id="game1-season" class="season-game__heading">Времена года!</h1>
+
+                <p class="season-game__text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</p>
+                
+                <a class="season-game__link" href="#"><button onclick="checkSeason();" class="season-game__button">Играть!</button></a> 
+
+            </div>   
+            
+            <div>
+                <img class="season-game__img" src="img/img_season.svg" alt="">
+            </div>
+
+        </section>
+
     </main>
+
+<script src="script.js"></script>
 </body>
 </html>

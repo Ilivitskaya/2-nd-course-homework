@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +13,8 @@
 <body>
     <header class="top center">
         <h1 class="top__heading">Добро пожаловать<br>на мой сайт !</h1>
-        <p class="top__text">Вам предстоит пройти несколько увлекательных<br>игр. Если готов нажимай <b>поехали</b> и <b>приступай</b></p>
+        <p class="top__text">Вам предстоит пройти несколько увлекательных<br>игр. Если готов нажимай <b>поехали</b> и
+            <b>приступай</b></p>
         <a href="#game1-season"><button class="top__button">Поехали!</button></a>
     </header>
 
@@ -28,27 +30,50 @@
                 <h2 class="game-box__heading">Игра 3</h2>
             </div>
         </section>
-    
-        <section class="season-game center">
 
-            <div class="season-game__content">
+        <section class="game center">
 
-                <h1 id="game1-season" class="season-game__heading">Времена года!</h1>
+            <div class="game__content">
 
-                <p class="season-game__text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому времени года он относится</p>
-                
-                <a class="season-game__link" href="#"><button onclick="checkSeason();" class="season-game__button">Играть!</button></a> 
+                <h1 id="game1-season" class="game__heading">Времена года!</h1>
 
-            </div>   
-            
+                <p class="game__text">Нажмите кнопку играть, введите номер месяца (от 1 до 12) и вы узнаете к какому
+                    времени года он относится</p>
+
+                <a class="game__link" href="#"><button onclick="checkSeason();"
+                        class="game__button">Играть!</button></a>
+
+            </div>
+
             <div>
-                <img class="season-game__img" src="img/img_season.svg" alt="">
+                <img class="game__img" src="img/img_season.svg" alt="">
+            </div>
+
+        </section>
+
+        <section class="game-words game center">
+
+            <div class="game__content">
+
+                <h1 id="game1-season" class="game__heading">Запомни слова </h1>
+
+                <p class="game__text">При нажатии на кнопку играть, вы увидите несколько слов, которые вам необходимо
+                    запомнить.</p>
+
+                <a class="game__link" href="#"><button onclick="checkSeason();"
+                        class="game__button">Играть!</button></a>
+
+            </div>
+
+            <div>
+                <img class="game__img" src="img/img_words.svg" alt="">
             </div>
 
         </section>
 
     </main>
 
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>

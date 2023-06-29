@@ -10,7 +10,7 @@
         align-items: center;
         display: flex;
         flex-direction: column;
-    
+
         &__heading {
             font-size: 32px;
             line-height: 39px;
@@ -36,7 +36,7 @@
         flex-wrap: wrap;
         padding-top: 128px;
         padding-bottom: 128px;
-    
+
         &__item {
             margin-top: 0px;
             margin-bottom: 0px;
@@ -47,7 +47,7 @@
         }
     }
 
-    .season-game {
+    .game {
         display: flex;
         flex-direction: column;
         align-items: center;

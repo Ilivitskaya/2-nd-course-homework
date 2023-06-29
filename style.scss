@@ -101,7 +101,7 @@ body {
     &__item3 {
         background-image: url(img/game3.jpg);
         background-repeat: no-repeat;
-        background-size: cover;        
+        background-size: cover;
     }
 
     &__heading {
@@ -115,7 +115,7 @@ body {
     }
 }
 
-.season-game {
+.game {
     max-width: 1440px;
     height: 800px;
     background: #000915;
@@ -165,8 +165,14 @@ body {
         }
     }
 
-    
- 
+
+
 }
 
+.game-words {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
 @import 'mobile';

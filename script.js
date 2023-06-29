@@ -1,5 +1,5 @@
 function checkSeason() {
-    
+
     let monthNumber = prompt('Напиши номер месяца');
 
     if (monthNumber > 2 && monthNumber < 6) {
@@ -14,3 +14,11 @@ function checkSeason() {
         alert(`нет такого месяца`);
     }
 }
+
+//перемешиваем фрукты
+const fruits = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+
+const shuffleFruits = fruits.sort(() => Math.random() - 0.5);
+
+alert(shuffleFruits);
+

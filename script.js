@@ -16,9 +16,23 @@ function checkSeason() {
 }
 
 //перемешиваем фрукты
-const fruits = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
+function rememberFruits() {
 
-const shuffleFruits = fruits.sort(() => Math.random() - 0.5);
+    const fruits = ['Яблоко', 'Груша', 'Дыня', 'Виноград', 'Персик', 'Апельсин', 'Мандарин'];
 
-alert(shuffleFruits);
+    const shuffleFruits = fruits.sort(() => Math.random() - 0.5);
 
+    alert(shuffleFruits);
+
+    let userAnswer1 = prompt(`Чему равнялся первый элемент массива?`);
+
+    let userAnswer2 = prompt(`Чему равнялся последний элемент массива?`);
+
+    if (userAnswer1.toLowerCase() === shuffleFruits[0].toLowerCase() && userAnswer2.toLowerCase() === shuffleFruits[fruits.length - 1].toLowerCase()) {
+        alert(`Поздравляем!`);
+    } else if (userAnswer1.toLowerCase() === shuffleFruits[0].toLowerCase() || userAnswer2.toLowerCase() === shuffleFruits[fruits.length - 1].toLowerCase()) {
+        alert(`Вы были близки к победе!`);
+    } else {
+        alert(`ответ неверный`)
+    }
+}

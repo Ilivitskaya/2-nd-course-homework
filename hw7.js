@@ -47,9 +47,9 @@
 
 // let num = 32.58884;
 
-// num = Math.floor(num);
-// num = Math.ceil(num);
-// num = Math.round(num);
+// let numFloor = Math.floor(num);
+// let numCeil = Math.ceil(num);
+// let numRound = Math.round(num);
 
 // task 4
 
@@ -61,7 +61,7 @@
 
 // // task 5
 // const getRandom = (minValue, maxValue) => {
-//     return Math.round(Math.random() * maxValue - minValue) + minValue;
+//     return Math.round(Math.random() * (maxValue - minValue)) + minValue;
 // }
 
 // console.log(getRandom(1, 10));
@@ -74,7 +74,7 @@
 //     const arr = [];
 
 //     for (let i = 0; i < (num / 2); i++) {
-//         arr.push(Math.round(Math.random() * num));
+//         arr.push(Math.round(Math.random() * (num)));
 //     }
 
 //     return arr;

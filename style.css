@@ -12,6 +12,11 @@ a {
     width: 760px;
   }
 }
+@media (min-width: 1025px) {
+  .top__heading {
+    width: 760px;
+  }
+}
 body {
   font-family: "Montserrat", sans-serif;
 }
@@ -60,6 +65,9 @@ body {
 .top__button:hover {
   background: #EB443F;
 }
+.top__button:hover {
+  background: #EB443F;
+}
 
 .game-box {
   background: #000915;
@@ -74,6 +82,10 @@ body {
   height: 300px;
   margin-top: 128px;
   margin-bottom: 128px;
+}
+.game-box__item:hover {
+  border: 3px solid #44D2FF;
+  box-sizing: border-box;
 }
 .game-box__item:hover {
   border: 3px solid #44D2FF;

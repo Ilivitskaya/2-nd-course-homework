@@ -53,14 +53,26 @@
 
 // task 3
 
-function showInterval() {
-    alert(Date());
+// function showInterval() {
+//     alert(Date());
+// }
+
+// let timerId = setInterval(showInterval, 3000);
+
+// setInterval(() => {
+//     clearInterval(timerId); alert(`30 секунд прошло`);
+// }, 10000);
+
+// task 4
+
+function delayForSecond(callback) {
+    setTimeout(() => {
+        callback();
+    }, 2000);
+  
 }
 
-let timerId = setInterval(showInterval, 3000);
-
-setInterval(() => {
-    clearInterval(timerId); alert(`30 секунд прошло`);
-}, 10000);
-
+delayForSecond(function () {
+  console.log('Привет, Глеб!');
+})
 

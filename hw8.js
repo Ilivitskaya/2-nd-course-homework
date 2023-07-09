@@ -51,7 +51,16 @@
 
 // console.log(filter(people, isMale)); // Должен выводить [{name: 'Глеб', gender: 'male'},  {name: 'Олег', gender: 'male'}]
 
+// task 3
 
+function showInterval() {
+    alert(Date());
+}
 
+let timerId = setInterval(showInterval, 3000);
+
+setInterval(() => {
+    clearInterval(timerId); alert(`30 секунд прошло`);
+}, 10000);
 
 

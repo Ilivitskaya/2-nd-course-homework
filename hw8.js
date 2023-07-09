@@ -65,14 +65,30 @@
 
 // task 4
 
-function delayForSecond(callback) {
-    setTimeout(() => {
-        callback();
-    }, 2000);
+// function delayForSecond(callback) {
+//     setTimeout(() => {
+//         callback();
+//     }, 2000);
   
+// }
+
+// delayForSecond(function () {
+//   console.log('Привет, Глеб!');
+// })
+
+// task 5
+
+function delayForSecond(cb) {
+    setTimeout(() => {
+        console.log('Прошла одна секунда');
+				if(cb) { 	cb(); }
+
+    }, 1000)
 }
 
-delayForSecond(function () {
-  console.log('Привет, Глеб!');
-})
+function sayHi (name) {
+    console.log(`Привет, ${name}!`);
 
+}
+
+sayHi(`Глеб`, delayForSecond());
